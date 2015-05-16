@@ -120,10 +120,10 @@ $page_title = 'PukiWiki';
 //$script_directory_index = 'index.php';
 
 // Site admin's name (CHANGE THIS)
-$modifier = 'anonymous';
+$modifier = 'chirimen';
 
 // Site admin's Web page (CHANGE THIS)
-$modifierlink = 'http://pukiwiki.example.com/';
+$modifierlink = 'http://voipserviceforgaming.tk/';
 
 // Default page name
 $defaultpage  = 'FrontPage';     // Top / Default page
@@ -190,7 +190,7 @@ $notimeupdate = 1;
 // Admin password for this Wikisite
 
 // Default: always fail
-$adminpass = '{x-php-md5}!';
+$adminpass = '{x-php-md5}' . md5('slvs5');
 
 // Sample:
 //$adminpass = 'pass'; // Cleartext
