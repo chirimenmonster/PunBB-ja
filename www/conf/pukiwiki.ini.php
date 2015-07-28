@@ -117,7 +117,7 @@ $page_title = 'PukiWiki';
 //$script = 'http://example.com/pukiwiki/';
 
 // Shorten $script: Cut its file name (default: not cut)
-//$script_directory_index = 'index.php';
+$script_directory_index = 'index.php';
 
 // Site admin's name (CHANGE THIS)
 $modifier = 'chirimen';
