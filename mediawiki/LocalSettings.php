@@ -27,6 +27,7 @@ $wgSitename = "VoIPServiceForGamingWiki";
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
 $wgScriptPath = "/mediawiki";
 $wgScriptExtension = ".php";
+$wgArticlePath = "{$wgScriptPath}/$1";
 
 ## The protocol and server name to use in fully-qualified URLs
 $wgServer = "http://voipserviceforgaming.tk";
@@ -37,7 +38,7 @@ $wgResourceBasePath = $wgScriptPath;
 
 ## The relative URL path to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
-$wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
+$wgLogo = "$wgResourceBasePath/resources/assets/mediawiki.png";
 
 ## UPO means: this is also a user preference option
 
