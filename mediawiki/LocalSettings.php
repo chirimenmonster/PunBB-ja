@@ -45,8 +45,8 @@ $wgLogo = "$wgResourceBasePath/resources/assets/mediawiki.png";
 $wgEnableEmail = false;
 $wgEnableUserEmail = true; # UPO
 
-$wgEmergencyContact = "apache@voipserviceforgaming.tk";
-$wgPasswordSender = "apache@voipserviceforgaming.tk";
+$wgEmergencyContact = "www@voipserviceforgaming.tk";
+$wgPasswordSender = "www@voipserviceforgaming.tk";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
