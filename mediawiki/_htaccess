@@ -7,5 +7,12 @@
    # Handle From Controller...
    RewriteCond %{REQUEST_FILENAME} !-d
    RewriteCond %{REQUEST_FILENAME} !-f
-   RewriteRule ^ /mediawiki/index.php [L]
+   RewriteRule ^ /wiki/index.php [L]
 </IfModule>
+
+AuthType Basic
+AuthName "Test"
+Require valid-user
+
+ErrorDocument 401 /error/401.html
+

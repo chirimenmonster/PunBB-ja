@@ -1,0 +1,5 @@
+#<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^$ http://voipserviceforgaming.tk/wiki/ [R=301,L]
+#</IfModule>
