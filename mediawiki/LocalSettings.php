@@ -138,3 +138,5 @@ wfLoadSkin( 'Vector' );
 # Add more configuration options below.
 
 $wgAllowSiteCSSOnRestrictedPages = true;
+
+require_once "$IP/extensions/WikiForum/WikiForum.php";
