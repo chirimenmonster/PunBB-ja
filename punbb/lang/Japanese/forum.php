@@ -44,6 +44,9 @@ $lang_forum = array(
 'Moderate forum'			=>	'フォーラムをモデレート',
 'Mark forum read'			=>	'更新を通知',
 'RSS forum feed'			=>	'フォーラムRSS',
-'New posts info'			=>	'最後に訪問してから新たに投稿されたところへ'
+'New posts info'			=>	'最後に訪問してから新たに投稿されたところへ',
+'Unsubscribe'				=>	'未購読',
+'Subscribe'				=>	'購読',
+'Subscribe info'			=>	'新規トピックの通知をメールで受け取る。',
 
 );

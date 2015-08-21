@@ -7,8 +7,12 @@ $lang_admin_index = array(
 'Alerts'						=>	'管理上の警告',
 'Check for updates enabled'		=>	'この掲示板はpunBBの更新を自動的にチェックするようになっています。',
 'Check for updates manual'		=>	'更新チェック',	// Link text
-'Copyright message'				=>	'&copy; 2008-2009 <a href="http://punbb.informer.com/">PunBB</a>, partially based on code &copy; 2008-2009 <a href="http://fluxbb.org/">FluxBB</a>',
+'Copyright message'				=>	'&copy; 2008-2012 <a href="http://punbb.informer.com/">PunBB</a>',
 'PunBB version'					=>	'PunBBバージョン',
+'PunBB Community'				=>	'コミュニティ',
+'Forums'					=>	'フォーラム',
+'Twitter'					=>	'Twitter',
+'Development'					=>	'開発者',
 'Not available'					=>	'Not available',
 'Not applicable'				=>	'N/A',
 'Server load'					=>	'サーバー負荷',

@@ -9,7 +9,7 @@ $lang_help = array(
 
 'BBCode info'			=>	'管理者はBBCodeの有効・無効を切り替えられます。もしBBCodeが有効ならば、投稿や編集、署名変更の際にBBCodeヘルプへのリンクが表示されます。BBCodeはフォーマットのタメのタグで、フォーラム内の文字の見え方を変えることができます。BBCodeはHTMLと似た文法です。下記は現在使用できるBBCodeのリストと使い方です。',
 'Image info'			=>	'管理者は投稿や署名に画像を使えるかどうかを切り替えられます。もし画像表示が有効になっていれば、投稿や編集、署名変更の際にヘルプへのリンクが表示されます。画像はBBCodeの[img]を使って挿入されます。開いたタグの中の = の後の文字列は alt 属性に使用されます。アクセシビリティのため、alt属性は出来る限り入力するべきです。',
-'Text style'			=>	'Text appearance can be changed with the following tags which can be nested.',
+'Text style'			=>	'文字装飾は次に示すネスト可能なタグで変更できます。',
 'Bold text'				=>	'太字',
 'Underlined text'		=>	'下線',
 'Italic text'			=>	'斜体',
@@ -17,8 +17,8 @@ $lang_help = array(
 'Blue text'				=>	'青色',
 'Heading text'			=>	'見出し',
 
-'Links info'			=>	'別のサイトへのリンクやE-mailアドレスを作成できます。:',
-'My e-mail address'		=>	'My e-mail address',
+'Links info'			=>	'別のサイトへのリンクやEmailアドレスを作成できます。:',
+'My e-mail address'		=>	'自分のEmailアドレス',
 
 'Quotes info'			=>	'他ユーザーを引用するにはquoteタグを使います。名前を指定しなくてもquoteタグを使えます。',
 'Quote text'			=>	'この部分が引用したい文章です。',

@@ -3,44 +3,47 @@
 // Language definitions used in various scripts
 $lang_misc = array(
 
-'Mark read redirect'		=>	'すべてのトピックとフォーラムの更新を通知します。リダイレクト中…',
-'Mark forum read redirect'	=>	'特定のフォーラムのすべてのトピックを通知します。リダイレクト中…',
+'Mark read redirect'		=>	'すべてのトピックとフォーラムの更新を通知します。',
+'Mark forum read redirect'	=>	'特定のフォーラムのすべてのトピックを通知します。',
 
 // Send e-mail
-'Form e-mail disabled'		=>	'E-mailを送ろうとしているユーザーはE-mailフォームを無効にしました。',
-'Form e-mail errors'		=>	'<strong>注意 !</strong>　メッセージを送る前に次のエラーを直して下さい。:',
+'Form e-mail disabled'		=>	'E-mailを送ろうとしているユーザーはEmailフォームを無効にしました。',
+'Form e-mail errors'		=>	'<strong>警告!</strong> メッセージを送る前に次のエラーを直して下さい:',
 'No e-mail subject'			=>	'タイトルを入力して下さい。.',
 'No e-mail message'			=>	'メッセージを入力して下さい。',
+'Too long e-mail subject'	=>	'件名は %s 字を超えてはいけません。',
 'Too long e-mail message'	=>	'メッセージの長さが %s バイトあります。送られるE-mailの長さを %s バイト超えています。',
 'Email flood'				=>	'メール送信の間隔は少なくとも %s 秒必要です。しばらく待ってから再度送って下さい。',
-'E-mail sent redirect'		=>	'E-mailが送られました。リダイレクト中…',
+'E-mail sent redirect'		=>	'Emailが送られました。',
 'E-mail subject'			=>	'タイトル',
 'E-mail message'			=>	'メッセージ',
-'E-mail disclosure note'	=>	'<strong>重要 !</strong> E-mailをこのフォームから送ると、受け取り側にあなたのアドレスが開示されます。',
-'Write e-mail'				=>	'E-mailを書く',
-'Send forum e-mail'			=>	'フォーラム経由で %s へE-mailを送る',
+'E-mail disclosure note'	=>	'<strong>重要!</strong> E-mailをこのフォームから送ると、受け取り側にあなたのアドレスが開示されます。',
+'Write e-mail'				=>	'Emailを書く',
+'Send forum e-mail'			=>	'フォーラム経由で %s へEmailを送る',
 
 // Report
 'No reason'					=>	'削除/違反報告の理由を書いて下さい。',
 'Report flood'				=>	'削除/違反報告を送る間隔は少なくとも %s 秒必要です。しばらく待ってから再度送って下さい。',
-'Report redirect'			=>	'管理者に報告されました。リダイレクト中…',
+'Report redirect'			=>	'管理者に報告されました。',
 'Report post'				=>	'削除/違反報告投稿',
 'Reason'					=>	'理由',
 'Reason help'				=>	'この投稿を削除/違反報告する理由を簡潔に入力してください。',
+'Too long reason'			=>	'レポートのサイズが %s byte です。 上限の %s byte を超えました。',
+'Report errors'				=>	'<strong>警告!</strong> レポートを送信する前に次のエラーを修正する必要があります:',
 
 // Subscriptions
 'Already subscribed'		=>	'すでにこのトピックは更新通知される設定になっています。',
-'Subscribe redirect'		=>	'更新通知設定を追加しました。リダイレクト中…',
+'Subscribe redirect'		=>	'更新通知設定を追加しました。',
 'Not subscribed'			=>	'このトピックは更新通知されていません。',
-'Unsubscribe redirect'		=>	'この更新通知は削除されました。リダイレクト中…',
+'Unsubscribe redirect'		=>	'この更新通知は削除されました。',
 
 // General forum and topic moderation
 'Moderate forum'			=>	'モデレートフォーラム',
 'Select'					=>	'選択',	// the header of a column of checkboxes
 'Move'						=>	'移動',
 'Merge'						=>	'結合',
-'Open'						=>  '開く',
-'Close'						=>  '閉じる',
+'Open'						=>	'開く',
+'Close'						=>	'閉じる',
 'Select all'				=>	'すべて選択',
 
 
@@ -58,25 +61,24 @@ $lang_misc = array(
 'Delete topic'				=>	'トピックを削除',
 'To new forum'				=>	'新しいフォーラムへ',
 'Move to'					=>	'移動先フォーラム',
-'Redirect topic'			=>	'リダイレクト設定',
 'Nowhere to move'			=>	'トピックを移動できるフォーラムはありません。',
 'Leave redirect'			=>	'移動したトピックの移動元からリダイレクトできるようにする。',
 'Leave redirects'			=>	'移動したトピックの移動元からリダイレクトできるようにする。',
 'Leave merge redirects'		=>	'結合したトピックの元トピックからリダイレクトできるようにする。',
-'Move topic redirect'		=>	'トピックは移動しました。リダイレクト中…',
-'Move topics redirect'		=>	'トピックは移動しました。リダイレクト中…',
-'Merge topics redirect'		=>	'トピックは結合されました。リダイレクト中…',
+'Move topic redirect'		=>	'トピックは移動しました。',
+'Move topics redirect'		=>	'トピックは移動しました。',
+'Merge topics redirect'		=>	'トピックは結合されました。',
 'Delete topic comply'		=>	'選択したトピックを本当に削除しますか？',
 'Delete topics comply'		=>	'選択したトピックを本当に削除しますか？',
-'Delete topic redirect'		=>	'トピックは削除されました。リダイレクト中…',
-'Delete topics redirect'	=>	'トピックは削除されました。リダイレクト中…',
-'Open topic redirect'		=>	'トピックが開始されました。リダイレクト中…',
-'Open topics redirect'		=>	'トピックが開始されました。リダイレクト中…',
-'Close topic redirect'		=>	'トピックは閉じられました。リダイレクト中…',
-'Close topics redirect'		=>	'トピックは閉じられました。リダイレクト中…',
+'Delete topic redirect'		=>	'トピックは削除されました。',
+'Delete topics redirect'	=>	'トピックは削除されました。',
+'Open topic redirect'		=>	'トピックが開始されました。',
+'Open topics redirect'		=>	'トピックが開始されました。',
+'Close topic redirect'		=>	'トピックは閉じられました。',
+'Close topics redirect'		=>	'トピックは閉じられました。',
 'No topics selected'		=>	'少なくとも一つはトピックを選択してください。',
-'Stick topic redirect'		=>	'トピックは固定されました。リダイレクト中…',
-'Unstick topic redirect'	=>	'トピックの固定は解除されました。リダイレクト中…',
+'Stick topic redirect'		=>	'トピックは固定されました。',
+'Unstick topic redirect'	=>	'トピックの固定は解除されました。',
 'Merge error'				=>	'結合するには複数のトピックを選択してください。',
 
 // Moderate topic
@@ -92,8 +94,8 @@ $lang_misc = array(
 'Confirm topic split'		=>	'選択した全ての投稿を新しいトピックに分割することを確認',
 'Confirm topic merge'		=>	'選択した全ての投稿を一つのトピックに結合することを確認',
 'Confirm post split'		=>	'選択した全ての投稿の分割を確認',
-'Delete posts redirect'		=>	'投稿は削除されました。リダイレクト中…',
-'Split posts redirect'		=>	'投稿は新しいトピックに分割されました。リダイレクト中…',
+'Delete posts redirect'		=>	'投稿は削除されました。',
+'Split posts redirect'		=>	'投稿は新しいトピックに分割されました。',
 'No posts selected'			=>	'少なくとも一つは投稿を選択してください。'
 
 );

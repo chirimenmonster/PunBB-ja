@@ -16,7 +16,7 @@ $lang_delete = array(
 'Topic title'			=>	'トピック: %s',
 'Reply title'			=>	'返信: %s',
 'Please confirm'		=>	'確認してください :',
-'Post del redirect'		=>	'投稿が削除されました。リダイレクト中…',
-'Topic del redirect'	=>	'トピックが削除されました。リダイレクト中…',
+'Post del redirect'		=>	'投稿が削除されました。',
+'Topic del redirect'	=>	'トピックが削除されました。',
 
 );

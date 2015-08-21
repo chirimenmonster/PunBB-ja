@@ -5,7 +5,6 @@ $lang_admin_common = array(
 
 // Common items
 'Save changes'					=>	'変更を保存',
-'Redirect'						=>	'リダイレクト中…',
 'Add'							=>	'追加',
 'Add new'						=>	'新規追加',
 'Delete'						=>	'削除',
@@ -17,14 +16,14 @@ $lang_admin_common = array(
 'No'							=>	'いいえ',
 'Save changes'					=>	'変更を保存',
 'Save'							=>	'保存',
-'E-mail'						=>	'E-mail',
+'E-mail'						=>	'Email',
 'Cancel'						=>	'キャンセル',
-'Cancel redirect'				=>	'操作はキャンセルされました。リダイレクト中…',
+'Cancel redirect'				=>	'操作はキャンセルされました。',
 'Unknown'						=>	'不明',
 'Delete help'					=>	'別のフォームから確認が必要',
 'Select all'					=>	'すべて選択',
 'Required'						=>	'(必須)',
-'Required warn'					=>	'%s がついた項目は入力が必須です。',
+'Required warn'					=>	'太字の項目は入力が必須です。',
 
 // Main Admin Menu Items and Title
 'Forum administration'			=>	'管理',
@@ -46,7 +45,6 @@ $lang_admin_common = array(
 'Features'						=>	'機能',
 'Announcements'					=>	'告知',
 'Registration'					=>	'登録',
-'E-mail'						=>	'E-mail',
 'Censoring'						=>	'削除対象',
 
 // Users Submenu

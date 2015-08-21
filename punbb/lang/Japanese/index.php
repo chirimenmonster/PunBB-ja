@@ -3,7 +3,7 @@
 // Language definitions used in index.php
 $lang_index = array(
 
-'Moderated by'				=>  'Moderated by %s',
+'Moderated by'				=>	'Moderated by %s',
 'Link to'					=>	'Link to %s',	// As in "Link to http://punbb.informer.com/"
 'Category subtitle'			=>	'%1$s in this category with details of %2$s',
 'Forums'					=>	'フォーラム',
@@ -32,7 +32,7 @@ $lang_index = array(
 'Users plural'				=>	'<strong>%s</strong> 登録ユーザー',
 'Users single'				=>	'<strong>1</strong> 登録ユーザー',
 'Users none'				=>	'<strong>0</strong> 登録ユーザー',
-'Currently online'			=>	'現在のオンライン訪問者数 ( %s )',
+'Currently online'			=>	'現在のオンライン訪問者数: %s',
 'Online stats separator'	=>	', ',
 'Online list separator'		=>	', ',
 'Statistics'				=>	'フォーラムの統計',

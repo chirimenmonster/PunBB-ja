@@ -1,11 +1,11 @@
-Subject: New topic in forum: <forum_name>
+Subject: 新規トピック: フォーラム <forum_name>
 
-<topic_starter> has created new topic <topic_subject> in forum to which you are subscribed.
+購読中のフォーラムで <topic_starter> さんが新しいトピック <topic_subject> を作成しました。
 
-The new topic is located at <topic_url>
+新規トピックのURL: <topic_url>
 
-You can unsubscribe by going to <unsubscribe_url>
+購読解除のURL: <unsubscribe_url>
 
 --
 <board_mailer>
-(Do not reply to this message)
+(このメールは送信専用です)

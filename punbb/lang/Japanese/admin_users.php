@@ -14,7 +14,7 @@ $lang_admin_users = array(
 'Signature label'				=>	'署名',
 'Admin note label'				=>	'管理者ノート',
 'Searches contact legend'		=>	'連絡先詳細',
-'E-mail address label'			=>	'E-mailアドレス',
+'E-mail address label'			=>	'Emailアドレス',
 'Website label'					=>	'ウェブサイト',
 'Searches activity legend'		=>	'活動',
 'More posts label'				=>	'投稿数が次の値より多い',
@@ -41,7 +41,7 @@ $lang_admin_users = array(
 'User information'				=>	'ユーザー情報',
 'IP address'					=>	'IPアドレス',
 'Username'						=>	'ユーザー名',
-'E-mail'						=>	'E-mail',
+'E-mail'						=>	'Email',
 'Admin note'					=>	'管理者ノート',
 
 'Invalid IP address'			=>	'入力したIPアドレスのフォーマットが正しくありません。',
@@ -76,6 +76,7 @@ $lang_admin_users = array(
 'Ban admin message'				=>	'選択したユーザーに管理者が含まれていたので禁止できませんでした。もし管理者を禁止したい場合には、まず別のユーザーグループに移動して下さい。',
 'Users banned'					=>	'ユーザーは禁止されました。',
 'Mass ban info'					=>	'禁止されたユーザーに指定したメッセージと禁止期限を表示できます。',
+'Ban settings legend'				=>	'禁止されたユーザー',
 'Change group head'				=>	'選択したユーザーを新しいグループに移動',
 'User groups updated'			=>	'ユーザーグループが更新されました。',
 'Move users legend'				=>	'ユーザーの移動',
@@ -83,8 +84,8 @@ $lang_admin_users = array(
 'Move users to label'			=>	'ユーザーをグループに移動',
 
 // admin_users tables
-'Username column'				=>	'ユーザー名 - E-mail - 管理ノート',
-'Title column'					=>	'タイトル - ステータス',
+'Username column'				=>	'ユーザー名 -- Email -- 管理ノート',
+'Title column'					=>	'タイトル -- ステータス',
 'Posts'							=>	'投稿',
 'Actions'						=>	'アクション',
 'View IP stats'					=>	'IP統計を表示',
