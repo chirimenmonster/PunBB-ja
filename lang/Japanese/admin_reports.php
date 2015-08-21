@@ -17,6 +17,7 @@ $lang_admin_reports = array(
 'No new reports'				=>	'(確認していない削除/違反報告はありません)',
 'Read reports heading'			=>	'最近の10削除/違反報告',
 'No reports'					=>	'削除/違反報告はありません。',
-'Marked read by'				=>	'[ 確認済み %s by %s ]',
+'Marked read by'				=>	'既読 %s by %s',
+'Post'						=>	'投稿 #%s',
 
 );

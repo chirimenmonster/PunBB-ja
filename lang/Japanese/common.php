@@ -36,12 +36,12 @@ $lang_common = array(
 'Forum message'				=>	'フォーラムメッセージ',
 'Maintenance warning'		=>	'<strong>注意! %s が有効になりました。</strong> ログインできなくなるので、今ログアウトしないでください。',
 'Maintenance mode'			=>	'メンテナンスモード',
-'Redirecting'				=>	'リダイレクト中',
+'Redirecting'				=>	'リダイレクト中…',	// With space!
 'Forwarding info'			=>	'%s %s後に自動的にページ移動します。 ',
 'second'					=>	'秒',	// singular
 'seconds'					=>	'秒',	// plural
 'Click redirect'			=>	'すぐに移動したい場合はここをクリックしてください。ブラウザが自動的に移動しない場合もクリックしてください。',
-'Invalid e-mail'			=>	'入力されたE-Mailが正しくありません。',
+'Invalid e-mail'			=>	'入力されたEmailが正しくありません。',
 'New posts'					=>	'未読の新コメント',	// the link that leads to the first new post
 'New posts title'			=>	'最後に訪問したあとに新たに投稿されたトピックを表示',	// the popup text for new posts links
 'Active topics'				=>	'最近のコメント',
@@ -67,26 +67,28 @@ $lang_common = array(
 'Write message legend'		=>	'Compose your post',
 'Required information'		=>	'必須な情報',
 'Reqmark'					=>	'*',
-'Required'					=>	'(必須)',
-'Required warn'				=>	'%s でラベルされた項目は記入が必要です。',
-'Crumb separator'			=>	' ≫&#160;', // The character or text that separates links in breadcrumbs
-'Title separator'			=>	' - ',
+'Required warn'				=>	'太字の項目は記入が必要です。',
+'Crumb separator'			=>	' &rarr;&#160;', // The character or text that separates links in breadcrumbs
+'Title separator'			=>	' -- ',
 'Page separator'			=>	'&#160;', //The character or text that separates page numbers
 'Spacer'					=>	'…', // Ellipsis for paginate
 'Paging separator'			=>	' ', //The character or text that separates page numbers for page navigation generally
 'Previous'					=>	'前へ',
 'Next'						=>	'次へ',
-'Cancel redirect'			=>	'操作はキャンセルされました。リダイレクト中…',
-'No confirm redirect'		=>	'確認されませんでした。操作はキャンセルされました。リダイレクト中…',
+'Cancel redirect'			=>	'操作はキャンセルされました。',
+'No confirm redirect'		=>	'確認されませんでした。操作はキャンセルされました。',
 'Please confirm'			=>	'確認:',
 'Help page'					=>	'ヘルプ: %s',
 'Re'						=>	'Re:',
 'Page info'					=>	'(ページ %1$s of %2$s)',
-'Item info single'			=>	'%s [ %s ]',
-'Item info plural'			=>	'%s [%s～%s (計%s)]', // e.g. Topics [ 10 to 20 of 30 ]
+'Item info single'			=>	'%s: %s',
+'Item info plural'			=>	'%s: %s～%s (計%s)', // e.g. Topics [ 10 to 20 of 30 ]
 'Info separator'			=>	' ', // e.g. 1 Page | 10 Topics
-'Powered by'				=>	'Powered by <strong>%s</strong>, supported by <strong>%s</strong>.',
+'Powered by'				=>	'Powered by %s, supported by %s.',
 'Maintenance'				=>	'メンテナンス',
+'Installed extension'		=>	'公式拡張機能 %s がインストールされました。Copyright &copy; 2003&ndash;2012 <a href="http://punbb.informer.com/">PunBB</a>.',
+'Installed extensions'		=>	'現在インストールされている公式拡張機能 <span id="extensions-used" title="%s">%s</span>。Copyright &copy; 2003&ndash;2012 <a href="http://punbb.informer.com/">PunBB</a>.',
+
 
 // CSRF confirmation form
 'Confirm'					=>	'確認',	// Button
@@ -114,13 +116,13 @@ $lang_common = array(
 // Stuff for the navigator (top of every page)
 'Index'						=>	'トップ',
 'User list'					=>	'ユーザー一覧',
-'Rules'						=>  '規約',
-'Search'					=>  '検索',
-'Register'					=>  '登録',
+'Rules'						=>	'規約',
+'Search'					=>	'検索',
+'Register'					=>	'登録',
 'register'					=>	'登録',
-'Login'						=>  'ログイン',
+'Login'						=>	'ログイン',
 'login'						=>	'ログイン',
-'Not logged in'				=>  'まだログインしていません。',
+'Not logged in'				=>	'まだログインしていません。',
 'Profile'					=>	'プロフィール',
 'Logout'					=>	'ログアウト',
 'Logged in as'				=>	'%s ログイン中',
@@ -132,7 +134,7 @@ $lang_common = array(
 
 // Alerts
 'New alerts'				=>	'最新の警告',
-'Maintenance alert'			=>	'<strong>注意! メンテナンスモードが有効です。</strong> 現在このサイトはメンテナンスモードです。<em>ログアウトしないでください。</em>再ログインできなくなります。',
+'Maintenance alert'			=>	'<strong>メンテナンスモードが有効です。</strong> <em>ログアウトしないでください。</em> 現在このサイトはメンテナンスモードです。<em>ログアウトしないでください。</em> 再ログインできなくなります。',
 'Updates'					=>	'PunBB 更新:',
 'Updates failed'			=>	'punbb.informer.comに対する最新版のチェックに失敗しました。サービスが過負荷状態か落ちています。 1,2日たっても治らなかったら、自動チェックから手動に切り替えてください。',
 'Updates version n hf'		=>	'新しいPunBB, version %s, が入手可能で、<a href="http://punbb.informer.com/">punbb.informer.com</a>でダウンロードできます。 さらに、ホットフィックスは管理機能の<a href="%s">Manage hotfixes</a>タブから可能です。',
@@ -154,11 +156,23 @@ $lang_common = array(
 'Skip to content'			=>	'フォーラムへスキップ',
 
 // Debug information
-'Querytime'					=>	'%1$s 秒で生成, %2$s クエリ実行',
+'Querytime'					=>	'%1$s 秒で生成 (%2$s%% PHP - %3$s%% DB) %4$s クエリ',
 'Debug table'				=>	'デバッグ情報',
 'Debug summary'				=>	'データベースクエリパフォーマンス',
 'Query times'				=>	'時間 (s)',
 'Query'						=>	'クエリ',
 'Total query time'			=>	'総クエリ時間',
+
+// Error message
+'Forum error header'		=> '申し訳ありません。ページをロードできません。',
+'Forum error description'	=> 'おそらく一時的なエラーです。再実行してページを再描画してください。再実行中に問題が発生する場合は5～10分後に再確認してください。',
+'Forum error location'		=> '%2$s の %1$s 行目でエラーが発生しました。',
+'Forum error db reported'	=> 'データベース報告:',
+'Forum error db query'		=> '失敗したクエリ:',
+
+// Menu
+'Menu admin'		=> '管理メニュー',
+'Menu profile'		=> 'プロファイルメニュー',
+
 
 );
