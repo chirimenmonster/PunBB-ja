@@ -139,4 +139,6 @@ wfLoadSkin( 'Vector' );
 
 $wgAllowSiteCSSOnRestrictedPages = true;
 
+wfLoadExtension('CollapsibleVector');
+
 require_once "$IP/extensions/WikiForum/WikiForum.php";
