@@ -1,18 +1,18 @@
-Subject: Reply to topic: <topic_subject>
+Subject: トピックへの投稿: <topic_subject>
 
-<replier> has replied to the topic <topic_subject> to which you are subscribed. There may be more new replies, but this is the only notification you will receive until you visit the board again.
+<replier> さんが、<topic_subject> トピックに投稿されました。
 
-The message reads as follows:
+投稿の内容:
 -----------------------------------------------------------------------
 
 <message>
 
 -----------------------------------------------------------------------
 
-The post is located at <post_url>
+投稿ページ： <post_url>
 
-You can unsubscribe by going to <unsubscribe_url>
+このお知らせを停止するには： <unsubscribe_url>
 
 -- 
 <board_mailer>
-(Do not reply to this message)
+(このメールは送信専用です)

@@ -1,12 +1,15 @@
-Subject: Change email address requested
+Subject: E-mailのアドレス変更
 
-Hello <username>,
+こんにちは <username>さん,
 
-You have requested to have a new email address assigned to your account in the discussion forum at <base_url>. If you didn't request this or if you don't want to change your email address you should just ignore this message. Only if you visit the activation page below will your email address be changed. In order for the activation page to work, you must be logged in to the forum.
+フォーラム<base_url>で、新しいE-mailアドレスへの変更を要求されました。
+もし、心当たりがなかったり、変更したくない場合にはこのメッセージは無視してください。
+サイトにログインした状態で、下のアクティベーションURLのサイトへアクセスすると変更が完了します。
 
-To change your email address, please visit the following page:
+
+E-mailアドレスを変更する:
 <activation_url>
 
---
+-- 
 <board_mailer>
-(Do not reply to this message)
+(このメールは送信専用です)

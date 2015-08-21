@@ -1,12 +1,11 @@
-Subject: Welcome to <board_title>!
+Subject: ようこそ、 <board_title> へ！
 
-Thank you for registering in the forums at <base_url>. Your username on the forums is <username>, as you requested.
+<base_url> へのご登録ありがとうございます。
+このフォーラムでのユーザー名は、 <username> です。登録を完了するには、下のリンクからパスワードを設定してください。
 
-To complete your registration, you need to set a password for your account. It must be done in 72 hours, or else your account will be deleted.
-
-To set your password, please visit the following page:
+パスワードを設定する:
 <activation_url>
 
---
+-- 
 <board_mailer>
-(Do not reply to this message)
+(このメールは送信専用です)
