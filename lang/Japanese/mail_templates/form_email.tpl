@@ -1,13 +1,14 @@
 Subject: <mail_subject>
 
-<sender> from <board_title> has sent you a message. You can reply to <sender> by replying to this email.
+<board_title> から <sender> さんのメッセージをお預かりしました。
+このメールから <sender> さんに返信できます。
 
-The message reads as follows:
+メッセージの内容:
 -----------------------------------------------------------------------
 
 <mail_message>
 
 -----------------------------------------------------------------------
 
---
+-- 
 <board_mailer>

@@ -1,12 +1,14 @@
-Subject: New password requested
+Subject: 新しいパスワード
 
-Hello <username>,
+こんにちは <username> さん
 
-You have requested to have a new password assigned to your account in the discussion forum at <base_url>. If you didn't request this or if you don't want to change your password you should just ignore this message. Only if you visit the activation page below will your password be changed.
+フォーラム <base_url> での新しいパスワードの発行が要求されました。
+もし、心当たりがないか、変更しない場合にはこのメッセージは無視してください。
+変更する場合には、下のアクティベーションページへアクセスして変更を完了してください。
 
-To change your password, please visit the following page:
+パスワードを変更する:
 <activation_url>
 
 -- 
 <board_mailer>
-(Do not reply to this message)
+(このメールは送信専用です)

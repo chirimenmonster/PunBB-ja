@@ -5,172 +5,160 @@ $lang_common = array(
 
 // Text orientation and encoding
 'lang_direction'			=>	'ltr',	// ltr (Left-To-Right) or rtl (Right-To-Left)
-'lang_identifier'			=>	'en',
+'lang_identifier'			=>	'ja',
 
 // Number formatting
 'lang_decimal_point'		=>	'.',
 'lang_thousands_sep'		=>	',',
 
 // Notices
-'Bad request'				=>	'Bad request. The link you followed is incorrect or outdated.',
-'No view'					=>	'You do not have permission to view these forums.',
-'No permission'				=>	'You do not have permission to access this page.',
-'CSRF token mismatch'		=>	'Unable to confirm security token. A likely cause for this is that some time passed between when you first entered the page and when you submitted a form or clicked a link. If that is the case and you would like to continue with your action, please click the Confirm button. Otherwise, you should click the Cancel button to return to where you were.',
-'No cookie'					=>	'You appear to have logged in successfully, however a cookie has not been set. Please check your settings and if applicable, enable cookies for this website.',
+'Bad request'				=>	'Bad request: リンク切れか古いリンクです。',
+'No view'					=>	'このフォーラムを閲覧する権限がありません。',
+'No permission'				=>	'このページにアクセスする権限がありません。',
+'CSRF token mismatch'		=>	'セキュリティトークンを確認できませんでした。このページに入ってからかなり時間たってから投稿したみたいです。操作を続けたい場合には確認ボタンをクリックしてください。あるいは、キャンセルボタンで戻ってください。',
+'No cookie'					=>	'ログインには成功していますが、クッキーがセットされていません。設定を確認して、可能ならこのサイトでのクッキーを有効にしてください。',
 
 
 // Miscellaneous
 'Forum index'				=>	'Forum index',
-'Submit'					=>	'Submit',	// "name" of submit buttons
-'Cancel'					=>	'Cancel', // "name" of cancel buttons
-'Preview'					=>	'Preview',	// submit button to preview message
-'Delete'					=>	'Delete',
+'Submit'					=>	'送信',	// "name" of submit buttons
+'Cancel'					=>	'キャンセル', // "name" of cancel buttons
+'Preview'					=>	'プレビュー',	// submit button to preview message
+'Delete'					=>	'削除',
 'Split'						=>	'Split',
-'Ban message'				=>	'You are banned from this forum.',
-'Ban message 2'				=>	'The ban expires at the end of %s.',
-'Ban message 3'				=>	'The administrator or moderator that banned you left the following message:',
-'Ban message 4'				=>	'Please direct any inquiries to the forum administrator at %s.',
-'Never'						=>	'Never',
-'Today'						=>	'Today',
-'Yesterday'					=>	'Yesterday',
-'Forum message'				=>	'Forum message',
-'Maintenance warning'		=>	'<strong>WARNING! %s Enabled.</strong> DO NOT LOGOUT as you will be unable to login again.',
-'Maintenance mode'			=>	'Maintenance Mode',
-'Redirecting'				=>	' Redirecting…', // With space!
-'Forwarding info'			=>	'You should automatically be forwarded to a new page in %s %s.',
-'second'					=>	'second',	// singular
-'seconds'					=>	'seconds',	// plural
-'Click redirect'			=>	'Click here if you do not want to wait any longer (or if your browser does not automatically forward you)',
-'Invalid e-mail'			=>	'The email address you entered is invalid.',
-'New posts'					=>	'New posts',	// the link that leads to the first new post
-'New posts title'			=>	'Find topics containing posts made since your last visit.',	// the popup text for new posts links
-'Active topics'				=>	'Active topics',
-'Active topics title'		=>	'Find topics which contain recent posts.',
-'Unanswered topics'			=>	'Unanswered topics',
-'Unanswered topics title'	=>	'Find topics which have not been replied to.',
-'Username'					=>	'Username',
-'Registered'				=>	'Registered',
-'Write message'				=>	'Write message',
-'Forum'						=>	'Forum',
-'Posts'						=>	'Posts',
-'Pages'						=>	'Pages',
-'Page'						=>	'Page',
-'BBCode'					=>	'BBCode',	// You probably shouldn't change this
-'Smilies'					=>	'Smilies',
-'Images'					=>	'Images',
-'You may use'				=>	'You may use: %s',
-'and'						=>	'and',
-'Image link'				=>	'image',	// This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
-'wrote'						=>	'wrote',	// For [quote]'s (e.g., User wrote:)
-'Code'						=>	'Code',		// For [code]'s
-'Forum mailer'				=>	'%s Mailer',	// As in "MyForums Mailer" in the signature of outgoing e-mails
+'Ban message'				=>	'あなたはこのフォーラムへの入室が禁止されています。',
+'Ban message 2'				=>	'禁止期間は %s までです。',
+'Ban message 3'				=>	'あなたを出禁にした管理者かモデレーターからのメッセージ:',
+'Ban message 4'				=>	'フォーラム管理者に直接問い合わせてください。 %s',
+'Never'						=>	'未投稿',
+'Today'						=>	'今日',
+'Yesterday'					=>	'昨日',
+'Forum message'				=>	'フォーラムメッセージ',
+'Maintenance warning'		=>	'<strong>注意! %s が有効になりました。</strong> ログインできなくなるので、今ログアウトしないでください。',
+'Maintenance mode'			=>	'メンテナンスモード',
+'Redirecting'				=>	'リダイレクト中',
+'Forwarding info'			=>	'%s %s後に自動的にページ移動します。 ',
+'second'					=>	'秒',	// singular
+'seconds'					=>	'秒',	// plural
+'Click redirect'			=>	'すぐに移動したい場合はここをクリックしてください。ブラウザが自動的に移動しない場合もクリックしてください。',
+'Invalid e-mail'			=>	'入力されたE-Mailが正しくありません。',
+'New posts'					=>	'未読の新コメント',	// the link that leads to the first new post
+'New posts title'			=>	'最後に訪問したあとに新たに投稿されたトピックを表示',	// the popup text for new posts links
+'Active topics'				=>	'最近のコメント',
+'Active topics title'		=>	'最近投稿されたトピックを表示',
+'Unanswered topics'			=>	'返答待ちトピック',
+'Unanswered topics title'	=>	'まだ返答のないトピックを表示',
+'Username'					=>	'ユーザー名',
+'Registered'				=>	'登録済',
+'Write message'				=>	'メッセージを書く:',
+'Forum'						=>	'フォーラム',
+'Posts'						=>	'投稿',
+'Pages'						=>	'ページ',
+'Page'						=>	'ページ',
+'BBCode'					=>	'BBコード',	// You probably shouldn't change this
+'Smilies'					=>	'スマイリー',
+'Images'					=>	'画像',
+'You may use'				=>	'%sが使えます。',
+'and'						=>	'と',
+'Image link'				=>	'画像',	// This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
+'wrote'						=>	'さんのコメント',	// For [quote]'s (e.g., User wrote:)
+'Code'						=>	'コード',		// For [code]'s
+'Forum mailer'				=>	'%s メーラー',	// As in "MyForums Mailer" in the signature of outgoing e-mails
 'Write message legend'		=>	'Compose your post',
-'Required information'		=>	'Required information',
+'Required information'		=>	'必須な情報',
 'Reqmark'					=>	'*',
-'Required warn'				=>	'All fields with bold label must be completed before the form is submitted.',
-'Crumb separator'			=>	' &rarr;&#160;', // The character or text that separates links in breadcrumbs
-'Title separator'			=>	' — ',
+'Required'					=>	'(必須)',
+'Required warn'				=>	'%s でラベルされた項目は記入が必要です。',
+'Crumb separator'			=>	' ≫&#160;', // The character or text that separates links in breadcrumbs
+'Title separator'			=>	' - ',
 'Page separator'			=>	'&#160;', //The character or text that separates page numbers
 'Spacer'					=>	'…', // Ellipsis for paginate
 'Paging separator'			=>	' ', //The character or text that separates page numbers for page navigation generally
-'Previous'					=>	'Previous',
-'Next'						=>	'Next',
-'Cancel redirect'			=>	'Operation cancelled.',
-'No confirm redirect'		=>	'No confirmation provided. Operation cancelled.',
-'Please confirm'			=>	'Please confirm:',
-'Help page'					=>	'Help with: %s',
+'Previous'					=>	'前へ',
+'Next'						=>	'次へ',
+'Cancel redirect'			=>	'操作はキャンセルされました。リダイレクト中…',
+'No confirm redirect'		=>	'確認されませんでした。操作はキャンセルされました。リダイレクト中…',
+'Please confirm'			=>	'確認:',
+'Help page'					=>	'ヘルプ: %s',
 'Re'						=>	'Re:',
-'Page info'					=>	'(Page %1$s of %2$s)',
-'Item info single'			=>	'%s: %s',
-'Item info plural'			=>	'%s: %s to %s of %s', // e.g. Topics [ 10 to 20 of 30 ]
+'Page info'					=>	'(ページ %1$s of %2$s)',
+'Item info single'			=>	'%s [ %s ]',
+'Item info plural'			=>	'%s [%s～%s (計%s)]', // e.g. Topics [ 10 to 20 of 30 ]
 'Info separator'			=>	' ', // e.g. 1 Page | 10 Topics
-'Powered by'				=>	'Powered by %s, supported by %s.',
-'Maintenance'				=>	'Maintenance',
-'Installed extension'		=>	'The %s official extension is installed. Copyright &copy; 2003&ndash;2012 <a href="http://punbb.informer.com/">PunBB</a>.',
-'Installed extensions'		=>	'Currently installed <span id="extensions-used" title="%s">%s official extensions</span>. Copyright &copy; 2003&ndash;2012 <a href="http://punbb.informer.com/">PunBB</a>.',
+'Powered by'				=>	'Powered by <strong>%s</strong>, supported by <strong>%s</strong>.',
+'Maintenance'				=>	'メンテナンス',
 
 // CSRF confirmation form
-'Confirm'					=>	'Confirm',	// Button
-'Confirm action'			=>	'Confirm action',
-'Confirm action head'		=>	'Please confirm or cancel your last action',
+'Confirm'					=>	'確認',	// Button
+'Confirm action'			=>	'アクションを確認',
+'Confirm action head'		=>	'最後のアクション確認するかキャンセルして下さい。',
 
 // Title
-'Title'						=>	'Title',
-'Member'					=>	'Member',	// Default title
-'Moderator'					=>	'Moderator',
-'Administrator'				=>	'Administrator',
-'Banned'					=>	'Banned',
-'Guest'						=>	'Guest',
+'Title'						=>	'タイトル',
+'Member'					=>	'メンバー',	// Default title
+'Moderator'					=>	'モデレーター',
+'Administrator'				=>	'管理者',
+'Banned'					=>	'立入禁止',
+'Guest'						=>	'ゲスト',
 
 // Stuff for include/parser.php
-'BBCode error 1'			=>	'[/%1$s] was found without a matching [%1$s]',
-'BBCode error 2'			=>	'[%s] tag is empty',
-'BBCode error 3'			=>	'[%1$s] was opened within [%2$s], this is not allowed',
-'BBCode error 4'			=>	'[%s] was opened within itself, this is not allowed',
-'BBCode error 5'			=>	'[%1$s] was found without a matching [/%1$s]',
-'BBCode error 6'			=>	'[%s] tag had an empty attribute section',
-'BBCode nested list'		=>	'[list] tags cannot be nested',
-'BBCode code problem'		=>	'There is a problem with your [code] tags',
+'BBCode error 1'			=>	'[%1$s] と対になる [/%1$s] が見つかりません。',
+'BBCode error 2'			=>	'[%s] タグが空です。',
+'BBCode error 3'			=>	'[%2$s] の中で [%1$s] を開くことはできません。',
+'BBCode error 4'			=>	'[%s] が開いたままです。',
+'BBCode error 5'			=>	'[/%1$s] と対になる [%1$s] が見つかりません。 ',
+'BBCode error 6'			=>	'[%s] タグに空の属性セクションがあります。',
+'BBCode nested list'		=>	'[list] タグは入れ子にできません。',
+'BBCode code problem'		=>	'[code] タグに問題があります。',
 
 // Stuff for the navigator (top of every page)
-'Index'						=>	'Index',
-'User list'					=>	'User list',
-'Rules'						=>	'Rules',
-'Search'					=>	'Search',
-'Register'					=>	'Register',
-'register'					=>	'register',
-'Login'						=>	'Login',
-'login'						=>	'login',
-'Not logged in'				=>	'You are not logged in.',
-'Profile'					=>	'Profile',
-'Logout'					=>	'Logout',
-'Logged in as'				=>	'Logged in as %s.',
-'Admin'						=>	'Administration',
-'Last visit'				=>	'Last visit %s',
+'Index'						=>	'トップ',
+'User list'					=>	'ユーザー一覧',
+'Rules'						=>  '規約',
+'Search'					=>  '検索',
+'Register'					=>  '登録',
+'register'					=>	'登録',
+'Login'						=>  'ログイン',
+'login'						=>	'ログイン',
+'Not logged in'				=>  'まだログインしていません。',
+'Profile'					=>	'プロフィール',
+'Logout'					=>	'ログアウト',
+'Logged in as'				=>	'%s ログイン中',
+'Admin'						=>	'管理',
+'Last visit'				=>	'前回の訪問: %s',
 'Mark all as read'			=>	'Mark all topics as read',
-'Login nag'					=>	'Please login or register.',
-'New reports'				=>	'New reports',
+'Login nag'					=>	'ログインまたは登録してください。',
+'New reports'				=>	'最新の削除/違反報告',
 
 // Alerts
-'New alerts'				=>	'New Alerts',
-'Maintenance alert'			=>	'<strong>Maintenance mode enabled.</strong> <em>DO NOT</em> logout, if you do you will not be able to login again.',
-'Updates'					=>	'PunBB updates:',
-'Updates failed'			=>	'The latest attempt at checking for updates against the punbb.informer.com updates service failed. This probably just means that the service is temporarily overloaded or out of order. However, if this alert does not disappear within a day or two, you should disable the automatic check for updates and check for updates manually in the future.',
-'Updates version n hf'		=>	'A newer version of PunBB, version %s, is available for download at <a href="http://punbb.informer.com/">punbb.informer.com</a>. Furthermore, one or more hotfixes are available for install on the <a href="%s">Manage hotfixes</a> tab of the admin interface.',
-'Updates version'			=>	'A newer version of PunBB, version %s, is available for download at <a href="http://punbb.informer.com/">punbb.informer.com</a>.',
-'Updates hf'				=>	'One or more hotfixes are available for install on the <a href="%s">Manage hotfixes</a> tab of the admin interface.',
-'Database mismatch'			=>	'Database version mismatch',
-'Database mismatch alert'	=>	'Your PunBB database is meant to be used in conjunction with a newer version of the PunBB code. This mismatch can lead to your forum not working properly. It is suggested that you upgrade your forum to the newest version of PunBB.',
+'New alerts'				=>	'最新の警告',
+'Maintenance alert'			=>	'<strong>注意! メンテナンスモードが有効です。</strong> 現在このサイトはメンテナンスモードです。<em>ログアウトしないでください。</em>再ログインできなくなります。',
+'Updates'					=>	'PunBB 更新:',
+'Updates failed'			=>	'punbb.informer.comに対する最新版のチェックに失敗しました。サービスが過負荷状態か落ちています。 1,2日たっても治らなかったら、自動チェックから手動に切り替えてください。',
+'Updates version n hf'		=>	'新しいPunBB, version %s, が入手可能で、<a href="http://punbb.informer.com/">punbb.informer.com</a>でダウンロードできます。 さらに、ホットフィックスは管理機能の<a href="%s">Manage hotfixes</a>タブから可能です。',
+'Updates version'			=>	'新しいPunBB, version %s, が入手可能で、<a href="http://punbb.informer.com/">punbb.informer.com</a>からダウンロード可能です。',
+'Updates hf'				=>	'管理機能の<a href="%s">Manage hotfixes</a>タブからホットフィックスできます。',
+'Database mismatch'			=>	'必要とされるデータベースのバージョンが合いません。',
+'Database mismatch alert'	=>	'データベースは新しいPunBBコードと組み合わせて使われます。バージョンがあわないと、フォーラムが正しく動作しません。最新のPunBBのバージョンへのアップグレードをおすすめします。',
 
 // Stuff for Jump Menu
-'Go'						=>	'Go',		// submit button in forum jump
-'Jump to'					=>	'Jump to forum:',
+'Go'						=>	'移動',		// submit button in forum jump
+'Jump to'					=>	'フォーラムへ移動:',
 
 // For extern.php RSS feed
-'RSS description'			=>	'The most recent topics at %s.',
-'RSS description topic'		=>	'The most recent posts in %s.',
+'RSS description'			=>	'最新のトピック %s.',
+'RSS description topic'		=>	'%s の中の最新の投稿',
 'RSS reply'					=>	'Re: ',	// The topic subject will be appended to this string (to signify a reply)
 
 // Accessibility
-'Skip to content'			=>	'Skip to forum content',
+'Skip to content'			=>	'フォーラムへスキップ',
 
 // Debug information
-'Querytime'					=>	'Generated in %1$s seconds (%2$s%% PHP - %3$s%% DB) with %4$s queries',
-'Debug table'				=>	'Debug information',
-'Debug summary'				=>	'Database query performance information',
-'Query times'				=>	'Time (s)',
-'Query'						=>	'Query',
-'Total query time'			=>	'Total query time',
-
-// Error message
-'Forum error header'		=> 'Sorry! The page could not be loaded.',
-'Forum error description'	=> 'This is probably a temporary error. Just refresh the page and retry. If problem continues, please check back in 5-10 minutes.',
-'Forum error location'		=> 'The error occurred on line %1$s in %2$s',
-'Forum error db reported'	=> 'Database reported:',
-'Forum error db query'		=> 'Failed query:',
-
-// Menu
-'Menu admin'		=> 'Admin Menu',
-'Menu profile'		=> 'Profile Menu',
+'Querytime'					=>	'%1$s 秒で生成, %2$s クエリ実行',
+'Debug table'				=>	'デバッグ情報',
+'Debug summary'				=>	'データベースクエリパフォーマンス',
+'Query times'				=>	'時間 (s)',
+'Query'						=>	'クエリ',
+'Total query time'			=>	'総クエリ時間',
 
 );
