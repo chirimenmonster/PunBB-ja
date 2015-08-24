@@ -9,9 +9,9 @@ $lang_admin_index = array(
 'Check for updates manual'		=>	'更新チェック',	// Link text
 'Copyright message'				=>	'&copy; 2008-2012 <a href="http://punbb.informer.com/">PunBB</a>',
 'PunBB version'					=>	'PunBBバージョン',
-'PunBB Community'				=>	'コミュニティ',
-'Forums'					=>	'フォーラム',
-'Twitter'					=>	'Twitter',
+'PunBB community'				=>	'コミュニティ',
+'Forums'						=>	'フォーラム',
+'Twitter'						=>	'Twitter',
 'Development'					=>	'開発者',
 'Not available'					=>	'Not available',
 'Not applicable'				=>	'N/A',

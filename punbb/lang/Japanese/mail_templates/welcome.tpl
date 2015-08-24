@@ -6,6 +6,6 @@ Subject: ようこそ、 <board_title> へ！
 パスワードを設定する:
 <activation_url>
 
--- 
+--
 <board_mailer>
 (このメールは送信専用です)

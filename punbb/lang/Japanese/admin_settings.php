@@ -46,8 +46,7 @@ $lang_admin_settings = array(
 'URL scheme label'				=>	'URL形式',
 'URL scheme help'				=>	'必ず上記を読んで理解してから変更して下さい。',
 'Setup links'					=>	'ナビゲーションメニューにカスタムリンクを追加',
-'Setup links info'				=>	'このテキストボックスにHTMLハイパーリンクを入力することで、ページの上部メニューバーに任意のリンクを配置できます。
-リンク追加のフォーマットは、 X = &lt;a href="URL"&gt;LINK&lt;/a&gt; で、Xには挿入する位置を数字で入力します。(0 = ... とすると最初に挿入され、2 = ... とすると、"ユーザー一覧"の後に挿入されます。) 　改行で区切ってください。',
+'Setup links info'				=>	'このテキストボックスにHTMLハイパーリンクを入力することで、ページの上部メニューバーに任意のリンクを配置できます。リンク追加のフォーマットは、 X = &lt;a href="URL"&gt;LINK&lt;/a&gt; で、Xには挿入する位置を数字で入力します (0 = ... とすると最初に挿入され、2 = ... とすると、"ユーザー一覧"の後に挿入されます)。改行で区切ってください。',
 'Setup links legend'			=>	'メニュー項目',
 'Enter links label'				=>	'リンクを入力',
 'Error no board title'			=>	'掲示板のタイトルが必要です。',
@@ -67,7 +66,7 @@ $lang_admin_settings = array(
 'Quick jump label'				=>	'各フォーラムへすぐにジャンプできるようにセレクタを表示',
 'Show version'					=>	'バージョンを表示',
 'Show version label'			=>	'フッターにPunBBのバージョンを表示',
-'Show moderators'			=>	'モデレータの表示',
+'Show moderators'				=>	'モデレータの表示',
 'Show moderators label'			=>	'インデックスページにモデレータ一覧を表示',
 'Online list'					=>	'オンラインユーザー',
 'Users online label'			=>	'オンラインのゲストと登録ユーザーを表示します。',
@@ -133,10 +132,10 @@ $lang_admin_settings = array(
 'Check for versions'			=>	'新しいバージョンをチェック',
 'Auto check for versions'		=>	'新しいバージョンの拡張機能をチェック',
 
-'Features mask passwords'		=>	'入力欄のパスワード非表示',
+'Features mask passwords'			=>	'入力欄のパスワード非表示',
 'Features mask passwords legend'	=>	'パスワード非表示',
 'Features mask passwords info'		=>	'有効にした場合、PunBBはすべてのパスワード欄とパスワード確認欄の文字を隠す。無効にした場合は、パスワードの登録や変更するとき以外でもパスワード欄の文字は表示される。ログインフォームのパスワード欄の文字は (このオプションにかかわらず) 常に隠される。',
-'Enable mask passwords'			=>	'パスワード非表示',
+'Enable mask passwords'				=>	'パスワード非表示',
 'Enable mask passwords label'		=>	'入力欄のパスワードを非表示にする。',
 
 'Features gzip'					=>	'出力にgzipを使う',
