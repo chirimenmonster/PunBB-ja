@@ -30,6 +30,7 @@ $lang_help = array(
 'Code text long'		=>	'これは長いコードの一部です。これは長いコードの一部です。これは長いコードの一部です。これは長いコードの一部です。・・・・・・・',
 'produces code box'		=>	'で、ソースコードのボックスが作成されます。',
 'produces scroll box'	=>	'で、スクロールできるコードボックスが作成されます。',
+
 'List info'				=>	'リストを作成する場合はlistタグを使います。作成できるリストは3種類あります。',
 'List text 1'			=>	'Example list item 1.',
 'List text 2'			=>	'Example list item 2.',

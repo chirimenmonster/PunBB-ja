@@ -89,7 +89,6 @@ $lang_common = array(
 'Installed extension'		=>	'公式拡張機能 %s がインストールされました。Copyright &copy; 2003&ndash;2012 <a href="http://punbb.informer.com/">PunBB</a>.',
 'Installed extensions'		=>	'現在インストールされている公式拡張機能 <span id="extensions-used" title="%s">%s</span>。Copyright &copy; 2003&ndash;2012 <a href="http://punbb.informer.com/">PunBB</a>.',
 
-
 // CSRF confirmation form
 'Confirm'					=>	'確認',	// Button
 'Confirm action'			=>	'アクションを確認',
@@ -173,6 +172,5 @@ $lang_common = array(
 // Menu
 'Menu admin'		=> '管理メニュー',
 'Menu profile'		=> 'プロファイルメニュー',
-
 
 );

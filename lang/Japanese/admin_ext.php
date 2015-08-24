@@ -21,7 +21,7 @@ $lang_admin_ext = array(
 'Extension error'				=>	'エラー',
 'Extension loading error'		=>	'"%s" のロードに失敗しました。',
 'Illegal ID'					=>	'IDは小文字の英数字(a-z, 0-9)とアンダースコア(_)のみ使用できます。',
-'Maxtestedon error'			=>	'この拡張機能はあなたのPunBBのバージョンに対応していません。',
+'Maxtestedon error'				=>	'この拡張機能はあなたのPunBBのバージョンに対応していません。',
 'Maxtestedon warning'			=>	'この拡張機能はあなたのPunBBのバージョンでテストされていないので、対応していないかもしれません。',
 'Missing manifest'				=>	'manifest.xmlがありません。',
 'Failed parse manifest'			=>	'manifest.xmlのパースエラー',
@@ -70,7 +70,7 @@ $lang_admin_ext = array(
 'Disable dependency'			=>	'"%s" が有効な場合は、この拡張機能を無効にできません。',
 'Disabled dependency'			=>	'"%s" が無効の場合は、この拡張機能を有効にできません。',
 'Download latest version'		=>	'最新版をダウンロード',
-'Version dependency error'	=>  '拡張機能 "%s" は version %s 以上でなければなりません。',
-'Install ext errors'		=>  '<strong>警告!</strong> 拡張機能をインストールする前に次のエラーを修正する必要があります:',
+'Version dependency error'    =>  '拡張機能 "%s" は version %s 以上でなければなりません。',
+'Install ext errors'            =>  '<strong>警告!</strong> 拡張機能をインストールする前に次のエラーを修正する必要があります:',
 
 );
