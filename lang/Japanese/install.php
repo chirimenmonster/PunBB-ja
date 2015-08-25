@@ -78,8 +78,8 @@ $lang_install = array(
 // Used in the install
 'Default language'			=>	'デフォルト言語',
 'Default language help'		=>	'(もし言語パックを削除したら、この設定を更新しなければいけません。)',
-'Default announce heading'	=>	'告知サンプル',
-'Default announce message'	=>	'<p>告知内容をここへ</p>',
+'Default announce heading'	=>	'アナウンスのサンプル',
+'Default announce message'	=>	'<p>アナウンスの内容をここへ</p>',
 'Default rules'				=>	'規約をここへ',
 'Default category name'		=>	'テストカテゴリ',
 'Default forum name'		=>	'テストフォーラム',

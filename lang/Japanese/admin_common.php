@@ -16,11 +16,11 @@ $lang_admin_common = array(
 'No'							=>	'いいえ',
 'Save changes'					=>	'変更を保存',
 'Save'							=>	'保存',
-'E-mail'						=>	'Email',
+'E-mail'						=>	'メールアドレス',
 'Cancel'						=>	'キャンセル',
 'Cancel redirect'				=>	'操作はキャンセルされました。',
 'Unknown'						=>	'不明',
-'Delete help'					=>	'別のフォームから確認が必要',
+'Delete help'					=>	'別のフォームから確認が必要です。',
 'Select all'					=>	'すべて選択',
 'Required'						=>	'(必須)',
 'Required warn'					=>	'太字の項目は入力が必須です。',
@@ -32,8 +32,8 @@ $lang_admin_common = array(
 'Users'							=>	'ユーザー',
 'Options'						=>	'オプション',
 'Management'					=>	'管理',
-'Extensions'					=>	'拡張',
-'Moderate'						=>	'投稿の管理',
+'Extensions'					=>	'拡張機能',
+'Moderate'						=>	'モデレート',
 
 // Start Submenu
 'Information'					=>	'情報',
@@ -41,17 +41,17 @@ $lang_admin_common = array(
 'Forums'						=>	'フォーラム',
 
 // Settings Submenu
-'Setup'							=>	'基本',
+'Setup'							=>	'設定',
 'Features'						=>	'機能',
-'Announcements'					=>	'告知',
+'Announcements'					=>	'アナウンス',
 'Registration'					=>	'登録',
-'Censoring'						=>	'削除対象',
+'Censoring'						=>	'検閲',
 
 // Users Submenu
 'Searches'						=>	'検索',
 'Groups'						=>	'グループ',
 'Ranks'							=>	'ランク',
-'Bans'							=>	'禁止',
+'Bans'							=>	'アクセス禁止',
 
 // Management Submenu
 'Reports'						=>	'削除/違反報告',
@@ -61,6 +61,6 @@ $lang_admin_common = array(
 
 // Extensions Submenu
 'Manage extensions'				=>	'拡張機能の管理',
-'Manage hotfixes'				=>	'Hotfixの管理',
+'Manage hotfixes'				=>	'Hotfix の管理',
 
 );
