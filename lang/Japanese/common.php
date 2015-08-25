@@ -171,6 +171,6 @@ $lang_common = array(
 
 // Menu
 'Menu admin'		=> '管理メニュー',
-'Menu profile'		=> 'プロファイルメニュー',
+'Menu profile'		=> 'プロフィールメニュー',
 
 );
