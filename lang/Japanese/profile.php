@@ -178,7 +178,7 @@ $lang_profile = array(
 'UTC+14:00'					=>	'(UTC+14:00) Line Islands',
 
 // Change Password stuff
-'Change pass errors'		=>	'<strong>注意 !</strong>　パスワードを更新する前に次のエラーを直して下さい。:',
+'Change pass errors'		=>	'<strong>警告!</strong> パスワードを更新する前に次のエラーを直して下さい:',
 'Pass logout'				=>	'ユーザーは現在ログインしています。ログアウトしてもう一度試して下さい。',
 'Pass key bad'				=>	'このパスワードアクティベーションキーは正しくないか期限切れです。もう一度新しいパスワード要求を行って下さい。それでも失敗する場合は管理者に連絡して下さい。: %s',
 'Pass updated'				=>	'パスワードは更新されました。新しいパスワードでログインして下さい。',
@@ -226,7 +226,7 @@ $lang_profile = array(
 'Dupe e-mail'				=>	'このメールアドレスは登録済みです。別のメールアドレスを使用してください。',
 'Reg e-mail'				=>	'ご登録ありがとうございます。入力されたE-mailに登録確認の方法をお送りしました。もしメールが届かない場合には管理者に連絡してください。: %s',
 'Reg complete'				=>	'登録が完了しました。ログイン＆リダイレクト中…',
-'Register errors'			=>	'<strong>注意 !</strong>　登録前に次のエラーを直してください。:',
+'Register errors'			=>	'<strong>警告!</strong> 登録前に次のエラーを直してください:',
 'E-mail info'				=>	'<strong>重要 !</strong>　登録確認用のE-mailが新しいE-mailアドレスに送られます。メール内のアクティベーション用のリンクをクリックしてE-mailアドレスの確認を完了してください。',
 'Reg e-mail info'			=>	'<strong>重要 !</strong>　登録確認用のE-mailが送られます。E-mailアドレスが間違っていないかご確認ください。メール内のリンクをクリックして新しいアカウントの登録を完了してください。',
 'Register at'				=>	'登録：%s',
@@ -253,7 +253,7 @@ $lang_profile = array(
 'Register'					=>	'登録', // Registration button text
 
 // Form validation stuff
-'Profile update errors'		=>	'<strong>注意 !</strong> プロフィールを更新する前に次のエラーを直してください。:',
+'Profile update errors'		=>	'<strong>警告!</strong> プロフィールを更新する前に次のエラーを直してください:',
 'Username BBCode'			=>	'ユーザー名にはフォーマットタグ(BBCode)を含めることはできません。',
 'Username IP'				=>	'ユーザー名にはIPアドレス形式を使えません。',
 'Username censor'			=>	'ユーザー名に禁止ワードが含まれています。',
